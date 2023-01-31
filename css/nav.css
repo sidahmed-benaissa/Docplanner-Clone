@@ -1,0 +1,33 @@
+.navigation{
+    height: 64px;
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 0.5px 0.5px rgba(128, 128, 128, 0.079);
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+}
+.logo-img{
+    height: 48px;
+    width: 264px;
+}
+.list-items{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+.item-link{
+    text-decoration: none;
+    color: #ABABAB;
+}
+.item-link-1{
+    color: #00b39b; 
+}
+.item-link-hov:hover{
+    color: #00b39b; 
+}
